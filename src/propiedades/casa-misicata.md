@@ -9,7 +9,7 @@ terreno_m2: 97
 dormitorios: 4
 banos: 1
 parqueaderos: 2
-imagen: /images/casa-propiedad.jpg
+imagen: /images/whatsapp-image-2026-08-31-at-15.37.41-1-.jpeg
 resumen: Casa de tres plantas con terraza en Condominio San Marcos.
 layout: propiedad.njk
 ---

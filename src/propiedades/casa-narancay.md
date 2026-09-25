@@ -1,5 +1,4 @@
 ---
-layout: propiedad.njk
 titulo: Casa Narancay
 sector: Ciudad del Río, Cuenca
 precio: 345000
@@ -10,8 +9,9 @@ terreno_m2: 325
 dormitorios: 4
 banos: 4
 parqueaderos: 4
-imagen: /images/placeholder-narancay.jpg
+imagen: /images/casa-propiedad.jpg
 resumen: Casa amoblada con jacuzzi, BBQ y seguridad privada en Ciudad del Río.
+layout: propiedad.njk
 ---
 
 Residencia de 375 m² de construcción sobre 325 m² de terreno en Ciudad del Río. Cuatro dormitorios, cada uno con baño privado. Totalmente amoblada, con jacuzzi, zona de BBQ, parqueadero para 4 vehículos y seguridad privada las 24 horas.

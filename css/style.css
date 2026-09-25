@@ -431,9 +431,9 @@ form.contacto-form textarea { min-height: 120px; }
 }
 .carousel-track::-webkit-scrollbar { display: none; }
 .carousel-card {
-  position: relative; flex: 0 0 340px; background: var(--navy); color: #fff;
+  position: relative; flex: 0 0 420px; background: var(--navy); color: #fff;
 }
-.carousel-card.principal { flex: 0 0 420px; }
+.carousel-card.principal { flex: 0 0 600px; }
 .carousel-img { aspect-ratio: 4/3; overflow: hidden; }
 .carousel-img img { width: 100%; height: 100%; object-fit: cover; }
 .carousel-body { padding: 14px; }

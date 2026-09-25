@@ -9,7 +9,7 @@ terreno_m2: 325
 dormitorios: 4
 banos: 4
 parqueaderos: 4
-imagen: /images/casa-propiedad.jpg
+imagen: /images/hero-bg-guapic.jpg
 resumen: Casa amoblada con jacuzzi, BBQ y seguridad privada en Ciudad del Río.
 layout: propiedad.njk
 ---

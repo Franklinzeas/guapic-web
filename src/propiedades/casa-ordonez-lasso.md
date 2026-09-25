@@ -1,5 +1,4 @@
 ---
-layout: propiedad.njk
 titulo: Casa Ordóñez Lasso
 sector: Av. Ordóñez Lasso, Cuenca
 precio: 165000
@@ -10,8 +9,9 @@ terreno_m2: 125
 dormitorios: 4
 banos: 4
 parqueaderos: 2
-imagen: /images/placeholder-ordonezlasso.jpg
+imagen: /images/whatsapp-image-2026-08-27-at-1.26.33-pm.jpeg
 resumen: 170 m² de construcción, 4 dormitorios, 3 baños privados y 1 social.
+layout: propiedad.njk
 ---
 
 Casa de 170 m² de construcción sobre 125 m² de terreno en el sector de Ordóñez Lasso. Cuatro dormitorios (tres con baño privado y un baño social), parqueadero para 2 vehículos.

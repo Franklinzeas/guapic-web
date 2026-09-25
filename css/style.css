@@ -371,7 +371,7 @@ form.contacto-form textarea { min-height: 120px; }
 .hero-v2-bg { position: absolute; inset: -6% -6%; width: 112%; height: 112%; object-fit: cover; will-change: transform; }
 .hero-v2-overlay {
   position: absolute; inset: 0;
-  background: linear-gradient(90deg, rgba(10,10,9,0.65) 30%, rgba(10,10,9,0.15) 75%);
+  background: linear-gradient(90deg, rgba(10,10,9,0) 30%, rgba(10,10,9,0) 75%);
 }
 .hero-v2-content { position: relative; padding-top: 80px; color: #fff; max-width: 680px; }
 .hero-v2-content h1 { color: #fff; font-size: clamp(2.6rem, 5.4vw, 4.4rem); max-width: 14ch; letter-spacing: -0.01em; }

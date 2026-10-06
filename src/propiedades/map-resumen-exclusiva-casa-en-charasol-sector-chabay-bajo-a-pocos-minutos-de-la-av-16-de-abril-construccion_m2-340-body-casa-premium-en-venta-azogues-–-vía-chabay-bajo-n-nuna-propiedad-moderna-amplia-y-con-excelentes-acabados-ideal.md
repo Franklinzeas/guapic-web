@@ -1,5 +1,5 @@
 ---
-titulo: "Casa en venta AZOGUES "
+titulo: "Casa AZOGUES "
 sector: CHABAY BAJO
 precio: 270000
 estado: En venta

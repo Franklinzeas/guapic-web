@@ -1,5 +1,5 @@
 ---
-titulo: "Terreno "
+titulo: Terreno Azogues
 sector: Javier Loyola
 precio: 55000
 estado: En venta

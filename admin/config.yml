@@ -39,3 +39,5 @@ collections:
       - { label: "Resumen corto", name: "resumen", widget: "string" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "post.njk" }
       - { label: "Contenido", name: "body", widget: "markdown" }
+
+  - name: "equipo" label: "Equipo" folder: "src/equipo" create: true slug: "{{slug}}" fields: - { label: "Nombre", name: "nombre", widget: "string" } - { label: "Cargo", name: "cargo", widget: "string" } - { label: "Foto", name: "foto", widget: "image" } - { label: "Orden", name: "orden", widget: "number", default: 1 } - { label: "Descripción / Bio", name: "bio", widget: "text", required: false } - { label: "Tags", name: "tags", widget: "hidden", default: "equipo" } - { label: "Permalink", name: "permalink", widget: "hidden", default: false } Commit changes.

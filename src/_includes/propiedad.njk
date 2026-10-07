@@ -4,6 +4,19 @@ layout: base.njk
 <div class="prop-detail-hero">
   <img src="{{ imagen }}" alt="{{ titulo }}">
 </div>
+
+{% if galeria | length %}
+<div class="wrap">
+  <div class="prop-galeria">
+    {% for foto in galeria %}
+    <a href="{{ foto }}" class="prop-galeria-item">
+      <img src="{{ foto }}" alt="{{ titulo }} - foto {{ loop.index }}" loading="lazy">
+    </a>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
 <div class="prop-detail wrap">
   <div>
     <p class="meta" style="color:var(--sage); font-size:0.85rem;">{{ estado }}</p>
@@ -21,20 +34,3 @@ layout: base.njk
   <aside class="contact-card">
     <p class="precio-grande">{{ precio | moneda }}</p>
     <h3>¿Te interesa esta propiedad?</h3>
-    <p style="color:#C9CFD6; font-size:0.9rem;">Escríbeme directo y coordinamos una visita.</p>
-    <a class="btn" href="https://wa.me/593969851813?text=Hola%20Franklin%2C%20me%20interesa%20{{ titulo | urlencode }}">Escribir por WhatsApp</a>
-    <a class="btn-outline" style="display:block; text-align:center; margin-top:10px;" href="/contacto/">Ver otras formas de contacto</a>
-    <div class="agente-atiende">
-      <img src="/images/placeholder-franklin.jpg" alt="Franklin Zeas">
-      <div>
-        <p class="nombre">Franklin Zeas</p>
-        <p class="lic">Agente inmobiliario · Lic. 547-A</p>
-      </div>
-    </div>
-  </aside>
-</div>
-<section>
-  <div class="wrap">
-    <a href="/propiedades/" style="color:var(--sage); font-size:0.9rem;">&larr; Ver todas las propiedades</a>
-  </div>
-</section>

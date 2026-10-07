@@ -29,6 +29,7 @@ collections:
       - { label: "Baños", name: "banos", widget: "number", required: false }
       - { label: "Parqueaderos", name: "parqueaderos", widget: "number", required: false }
       - { label: "Imagen principal", name: "imagen", widget: "image" }
+      - { label: "Galería de fotos", name: "galeria", widget: "list", required: false, field: { label: "Foto", name: "foto", widget: "image" } }
       - { label: "Resumen corto", name: "resumen", widget: "string" }
       - { label: "Layout", name: "layout", widget: "hidden", default: "propiedad.njk" }
       - { label: "Descripción", name: "body", widget: "markdown" }

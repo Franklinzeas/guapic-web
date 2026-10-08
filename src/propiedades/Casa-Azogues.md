@@ -10,6 +10,9 @@ dormitorios: 3
 banos: 3
 parqueaderos: 5
 imagen: /images/e2d739c4-8a2c-4d95-b4da-d324f2ac6c8e.jfif
+galeria:
+  - /images/whatsapp-image-2026-08-31-at-15.37.41-1-.jpeg
+  - /images/whatsapp-image-2026-10-03-at-23.00.57.jpeg
 resumen: Exclusiva casa en Charasol, sector Chabay Bajo a pocos minutos de la Av
   16 de Abril
 layout: propiedad.njk

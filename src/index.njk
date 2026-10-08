@@ -122,37 +122,22 @@ titulo: Inicio
       <a href="/servicios/" class="btn-outline">Conocer nuestros servicios</a>
     </div>
     <div class="servicios-grid">
-      <div class="servicio-card">
+      <a class="servicio-card" href="/servicios/#asesoria">
         <img src="/images/servicio-asesoria.jpg" alt="Asesoría Inmobiliaria">
         <div class="servicio-card-body">
           <h3>🏠 Asesoría Inmobiliaria</h3>
           <p>Te ayudamos a encontrar la propiedad ideal, con un acompañamiento personalizado y profesional.</p>
-          <ul class="servicio-lista">
-            <li>Compra</li>
-            <li>Venta</li>
-            <li>Alquiler</li>
-            <li>Inversiones</li>
-            <li>Avalúos</li>
-            <li>Administración de propiedades</li>
-          </ul>
-          <a class="link-mini" href="/propiedades/">Ver propiedades →</a>
+          <span class="link-mini">Ver servicios →</span>
         </div>
-      </div>
-      <div class="servicio-card">
+      </a>
+      <a class="servicio-card" href="/servicios/#ingenieria">
         <img src="/images/servicio-ingenieria.jpg" alt="Ingeniería y Construcción">
         <div class="servicio-card-body">
           <h3>🏗️ Ingeniería y Construcción</h3>
           <p>Diseñamos y construimos proyectos seguros, funcionales y de alta calidad.</p>
-          <div class="servicio-fotos">
-            <figure><img src="/images/ing-topografia.jpg" alt="Topografía Drone y RTK" onerror="this.style.display='none'"><figcaption>Topografía Drone y RTK</figcaption></figure>
-            <figure><img src="/images/ing-diseno.jpg" alt="Diseño" onerror="this.style.display='none'"><figcaption>Diseño</figcaption></figure>
-            <figure><img src="/images/ing-remodelacion.jpg" alt="Remodelación" onerror="this.style.display='none'"><figcaption>Remodelación</figcaption></figure>
-            <figure><img src="/images/ing-construccion.jpg" alt="Construcción" onerror="this.style.display='none'"><figcaption>Construcción</figcaption></figure>
-            <figure><img src="/images/ing-supervision.jpg" alt="Supervisión y gestión de proyectos" onerror="this.style.display='none'"><figcaption>Supervisión y gestión de proyectos</figcaption></figure>
-          </div>
-          <a class="link-mini" href="/servicios/">Saber más →</a>
+          <span class="link-mini">Ver servicios →</span>
         </div>
-      </div>
+      </a>
     </div>
   </div>
 </section>
@@ -306,15 +291,4 @@ titulo: Inicio
   .equipo-bio-card img { width: 100% !important; height: auto !important; aspect-ratio: auto !important; object-fit: contain; border-radius: 12px !important; }
   .equipo-bio-card > span:first-child { width: 100% !important; height: auto !important; aspect-ratio: 4 / 5; border-radius: 12px !important; margin: 0 0 12px !important; }
 
-  /* Servicios: lista de asesoría y fotos de ingeniería */
-  .servicio-lista { list-style: none; padding: 0; margin: 0 0 14px; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 14px; }
-  .servicio-lista li { position: relative; padding-left: 18px; font-size: 0.88rem; color: var(--stone); }
-  .servicio-lista li::before { content: "✓"; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
-  .servicio-fotos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 0 0 14px; }
-  .servicio-fotos figure { position: relative; margin: 0; aspect-ratio: 4 / 3; background: var(--navy-soft); overflow: hidden; }
-  .servicio-fotos figure img { position: absolute; inset: 0; width: 100%; height: 100%; aspect-ratio: auto; object-fit: cover; }
-  .servicio-fotos figcaption { position: absolute; left: 0; right: 0; bottom: 0; padding: 16px 8px 6px; background: linear-gradient(180deg, rgba(10,10,9,0), rgba(10,10,9,0.9)); color: #fff; font-size: 0.72rem; font-weight: 600; line-height: 1.2; }
-  @media (max-width: 860px) {
-    .servicio-fotos { grid-template-columns: repeat(2, 1fr); }
-  }
 </style>

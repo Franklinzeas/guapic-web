@@ -1,9 +1,9 @@
 ---
-titulo: "Casa AZOGUES "
+titulo: "Casa en Azogues "
 sector: CHABAY BAJO
 precio: 270000
 estado: En venta
-destacada: false
+destacada: true
 construccion_m2: 340
 terreno_m2: 540
 dormitorios: 3

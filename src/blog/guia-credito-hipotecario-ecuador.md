@@ -1,7 +1,7 @@
 ---
 titulo: Guía rápida de crédito hipotecario en Ecuador
 fecha: 2026-07-02
-imagen: /images/guia-de-credito-hipotecario-en-ecuador.png
+imagen: /images/guia-de-credito-hipotecario-en-ecuador-1-.png
 resumen: VIP, BIESS, banca privada — qué tasa te conviene según tu perfil.
 layout: post.njk
 ---

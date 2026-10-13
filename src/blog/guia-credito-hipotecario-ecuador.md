@@ -1,9 +1,9 @@
 ---
-layout: post.njk
 titulo: Guía rápida de crédito hipotecario en Ecuador
 fecha: 2026-07-02
-imagen: /images/placeholder-blog-2.jpg
+imagen: /images/guia-de-credito-hipotecario-en-ecuador.png
 resumen: VIP, BIESS, banca privada — qué tasa te conviene según tu perfil.
+layout: post.njk
 ---
 
 En Ecuador existen tres rutas principales de financiamiento para vivienda: el crédito VIP con tasas preferenciales cercanas al 5%, el BIESS para afiliados al IESS con tasas alrededor del 8%, y la banca privada con tasas más altas pero procesos más flexibles.
